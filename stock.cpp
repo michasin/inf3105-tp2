@@ -29,3 +29,42 @@ std::istream& operator >> (std::istream& is, Recette& recette){
     return is;
 }
 
+Stock::Stock(){
+
+
+
+}
+
+
+
+void Stock::ajout(std::string nomingredient, std::string date, int nombre){
+
+
+
+
+
+
+}
+
+
+void Stock::retrait(std::string nomingredient, int nombre){
+
+
+
+}
+
+
+void Stock::affichage(){
+
+
+
+
+}
+
+
+std::string Stock::dateExpiration(const Recette& recette) const{
+
+
+return "";
+
+}
